@@ -1,0 +1,171 @@
+<html>
+<title>Omkar - Developer Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500;1,600&display=swap" rel="stylesheet">
+
+     <style>
+          *{
+               margin: 0;
+               padding: 0;
+
+          }
+
+    body{
+     background-color: rgb(93, 214, 245);
+     color: rgb(26, 31, 7);
+     font-family: 'Poppins', sans-serif;
+}
+ nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 90px;
+     background-color: rgb(15, 124, 151);
+ }
+  nav ul{
+     display: flex;
+     justify-content: center;
+  }
+  nav ul li{
+     list-style: none;
+     margin: 0 25px;
+  } 
+
+  nav ul li a{
+     text-decoration: none;
+     color: white;
+  }
+  nav ul li a:hover{
+     color:orange;
+     font-size: 1.2rem;
+  }
+
+  main hr{
+     border: 0;
+     background-color: aliceblue;
+     height: 1.6px;
+     margin: 50px 90 px;
+  }
+  .left{
+     font-size: 2.5rem;
+  }
+  .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 160px 0;
+
+
+  }
+  .firstSection > div{
+     width: 40%;
+
+  }
+  .leftSection{
+     font-size: 3rem;
+     margin: 80px 0;
+  }
+  .rightSection img{
+   width: 80%;
+   margin: 60px 0;
+  }
+  .purple{
+     color: rgb(224, 30, 208);
+  }
+  #element{
+     color: rgb(245, 14, 168);
+  }
+  .secondSection{
+     max-width: 70vw;
+     margin: auto;
+     height: 90vh;
+  }
+  .secondSection h1{
+     font-size: 2rem;
+  }
+  .secondSection .vertical{
+     height: 80px;
+     width: 2px;
+     background-color: white;
+  }
+  .image-top{
+     width: 440px;
+     position: relative;
+     top: 10px;
+     left: -30px;
+  }
+  .image-o{
+     width: 440px;
+     position: relative;
+     top: 30px;
+     left: -10px;
+  }
+  .image-a{
+     width: 440px;
+     position: relative;
+     top: 10px;
+     left: -10px;
+  }
+  .image-s{
+     width: 440px;
+     position: relative;
+     top: 0px;
+     left: -10px;
+  }
+
+  
+     </style>
+</head>
+<body>
+      <header>
+              <nav>
+              <div class="left">Omkar Portfolio</div>
+              <div class="right">
+                <ul>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/">About</a></li>
+                  <li><a href="/">Projects</a></li>
+                  <li><a href="/">Contact Me</a></li>
+                </ul>
+
+              </div>
+
+              </nav>
+
+
+      </header>
+<main>
+       <section class="firstSection">
+     <div class="leftSection">
+    Hi, My Name is <span class="purple">Omkar</span> 
+    <div>And I am a Developer</div>
+    <span id="element"></span>
+     </div>
+     <div class="rightSection">
+     <img src="https://irp-cdn.multiscreensite.com/2847941c/dms3rep/multi/5+Page+Designs+-+Developer+Animation.png+-+Canva+1156+X+1350.png" alt=""
+     </div>
+       </section>
+       <hr>
+<section class="secondSection">
+     <h1> I Would like to work these Programming languages </h1>
+     <hr>
+<img class="image-top" src="https://static.skillshare.com/uploads/video/thumbnails/b9455fc40a4053509ef0a77b8ddb6a51/original" alt="">
+<img class="image-o" src="https://th.bing.com/th/id/OIP.S-5machqRhJvykvjMjEO6wHaHa?rs=1&pid=ImgDetMain" alt="">         
+<img class="image-a" src="https://meganmccarty.github.io/portfolio/static/images/python.png" alt=""> 
+<img class="image-s" src="https://th.bing.com/th/id/OIP.HxEqk_I8RVsmBQFFh65BSQAAAA?rs=1&pid=ImgDetMain" alt="">       
+           </div>     
+     </div>
+</section>
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer', 'C Programmer','C++ Programmer','Python Programmer','Data Structures And Algorithms Using C'],
+    typeSpeed: 50,
+  });
+</script>
+</body>
+</body>
+</html>
